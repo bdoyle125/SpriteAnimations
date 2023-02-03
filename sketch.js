@@ -12,12 +12,12 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 400);
   imageMode(CENTER);
 
-  walkingAnimation = new WalkingAnimation(spriteSheet1,80,80,25,200,9);
-  walkingAnimation2 = new WalkingAnimation(spriteSheet1,80,80,200,300,9);
-  walkingAnimation3 = new WalkingAnimation(spriteSheet2,80,80,300,100,9);
+  walkingAnimation = new WalkingAnimation(spriteSheet1,80,80,450,200,9);
+  walkingAnimation2 = new WalkingAnimation(spriteSheet1,80,80,25,300,9);
+  walkingAnimation3 = new WalkingAnimation(spriteSheet2,80,80,700,100,9);
 }
 
 function draw() {
